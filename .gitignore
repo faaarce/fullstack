@@ -41,3 +41,6 @@ dist-ssr
 .vinxi
 __unconfig*
 todos.json
+
+
+**/generated

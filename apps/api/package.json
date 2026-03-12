@@ -4,7 +4,11 @@
 	"scripts": {
 		"dev": "tsx watch src/index.ts",
 		"build": "tsc",
-		"start": "node dist/index.js"
+		"start": "node dist/index.js",
+		"with-env": "dotenv -e ../../.env --",
+		"db:migrate": "pnpm with-env prisma migrate dev",
+		"db:generate": "pnpm with-env prisma generate",
+		"db:studio": "pnpm with-env prisma studio"
 	},
 	"dependencies": {
 		"@hono/node-server": "^1.19.11",
