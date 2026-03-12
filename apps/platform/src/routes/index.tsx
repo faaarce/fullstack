@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({ component: App });
 function App() {
 	return (
 		<div className="flex justify-center items-center h-screen">
-			<Card className="w-[312px]">
+			<Card className="w-78">
 				<CardHeader>
 					<CardTitle>Login</CardTitle>
 					<CardDescription>Sign in to continue</CardDescription>

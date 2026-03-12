@@ -15,7 +15,7 @@ export const Route = createFileRoute("/register")({ component: App });
 function App() {
 	return (
 		<div className="flex justify-center items-center h-screen">
-			<Card className="w-[312px]">
+			<Card className="w-78">
 				<CardHeader>
 					<CardTitle>Register</CardTitle>
 					<CardDescription>Create an account to continue</CardDescription>
@@ -25,7 +25,7 @@ function App() {
 					<Input placeholder="Email" />
 					<Input placeholder="Password" />
 					<Button variant="outline" className="w-full">
-						Login
+						Create Account
 					</Button>
 				</CardContent>
 				<CardFooter>
