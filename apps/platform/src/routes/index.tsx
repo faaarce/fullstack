@@ -13,6 +13,10 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({ component: App });
 
 function App() {
+  
+const [email, setEmail] = useState("");
+const [password, setPassword] = useState("");
+
 	return (
 		<div className="flex justify-center items-center h-screen">
 			<Card className="w-78">
